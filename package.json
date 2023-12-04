@@ -1,6 +1,6 @@
 {
   "name": "fastify-msgraph-change-notifications-webhook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fastify plugin implementing MS Graph Change Notifications webhook.",
   "main": "index.js",
   "type": "commonjs",
