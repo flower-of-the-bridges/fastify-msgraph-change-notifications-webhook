@@ -1,0 +1,31 @@
+{
+  "name": "fastify-msgraph-change-notifications-webhook",
+  "version": "0.1.0",
+  "description": "Fastify plugin implementing MS Graph Change Notifications webhook.",
+  "main": "index.js",
+  "type": "commonjs",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "test": "npm run lint && TAP_TIMEOUT=30000 tap -b tests/*.test.js tests/**/*.test.js"
+  },
+  "author": "Giovanni Fiordeponti",
+  "license": "MIT",
+  "dependencies": {
+    "fastify-plugin": "^4.5.1"
+  },
+  "homepage": "https://github.com/flower-of-the-bridges/fastify-msgraph-change-notifications-webhook.git#readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flower-of-the-bridges/fastify-msgraph-change-notifications-webhook.git"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "fastify": "^4.24.3",
+    "sinon": "^17.0.1",
+    "tap": "^18.6.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
