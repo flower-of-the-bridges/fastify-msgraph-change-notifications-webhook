@@ -12,6 +12,7 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
+          package-lock: false
       - name: Install depedencies
         run: npm i
       - name: Run tests
